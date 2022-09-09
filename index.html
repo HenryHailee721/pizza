@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Time!</title>
+    <link rel="shortcut icon" href="img/pizza1.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+    <!-- Sweet alert CDN link  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="nav-bar">
+        <img src="img/pizza1.png" width="90px" height="90px">
+        <h3>Pizza <br> <a id="min-text">Time</a></h3>
+     <a href="">Home</a>
+     <a href="">About Us</a>
+     <a href="">Service</a>
+     <a href="">Menu</a>
+     <a href="">Promotion</a>
+
+    </section>
+
+    <section id="welcome">
+        <img src="img/pizza3.jpg">
+        <div>
+            <h1 style="text-align: center; font-family: 'Ms Madi', cursive; font-size: 35pt;">Welcome to delicious wall---->></h1>
+            <p style="text-align: justify; font-family: 'Ms Madi', cursive; font-size: 20pt;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ut assumenda ipsam, sunt nesciunt quas, atque ab enim velit quia quidem? Enim, qui laudantium. Officia quam at nihil impedit natus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae ab recusandae, illum facilis itaque in at eveniet. Aspernatur quos alias sapiente ipsum sed accusantium magni fugit illo modi cupiditate.</p>
+        </div>
+    </section>
+
+
+    <section id="about-us">
+        <h1>About Us</h1>
+        <div id="img-about">
+            <img src="img/pizza4.jpg">
+        </div>
+        <div id="about-text">
+            <a id="about-intro">Pizza Things</a>
+            <h2>Service Provider For Customer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consectetur esse! Placeat vel distinctio veniam quia repellat nihil explicabo nam. Voluptas soluta nobis tempora repellendus alias eveniet obcaecati ipsum esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea eos reprehenderit enim laudantium. Consequuntur ipsam, velit ipsum cumque ab delectus amet molestias quasi commodi est facilis impedit beatae fugiat.</p>
+            <a id="about-read">Read More</a>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <h1>Contact Us</h1>
+       
+            <table width="44%" align="center">
+                <tr>
+                    <td>Full Name :</td>
+                    <td>Comment :</td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="John Smith"></td>
+                    <td rowspan="4" ><textarea colspan="25" rows="5" placeholder="Good Service and U Deserve It."></textarea></td>
+                </tr>
+                <tr><td>Email</td></tr>
+                <tr>
+                    <td><input type="email" placeholder="John@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Contact" onclick='swal("Good job!", "You clicked the button!", "success");'></td>
+                </tr>
+            </table>
+       <div id="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.9514340922583!2d96.15213691454994!3d16.77909168844575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec821e07a833%3A0xdde741e3cd511209!2sJunction%20City!5e0!3m2!1sen!2ssg!4v1657284947415!5m2!1sen!2ssg" width="600" height="450" style="border:0; border-radius: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+       <div id="contact-address">
+        <table>
+          <caption><h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Our Location And Address is Here</h3></caption>
+        <tr>
+            <td>Shop Address</td>
+            <td>Junction City, ဗိုလ်ချုပ်လမ်း, Yangon, Myanmar (Burma)</td>
+        </tr>
+
+        <tr>
+            <td>Open Day:</td>
+            <td>9AM To 8PM</td>
+        </tr>
+
+        <tr>
+            <td>Website</td>
+            <td>ww.pizzatime.com</td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td>09049024094</td>
+        </tr>
+        </table>
+       </div>
+    </section>
+
+    <section id="pizza-display">
+        <div>
+            <img src="img/pizza2.png" width="150px" height="150px">
+            <table>
+                <tr>
+                    <td>Pizza</td>
+                    <td>Chicken Mushroom Pizaa</td>
+                </tr>
+                <tr>
+                    <td>Price: </td>
+                    <td>8000 / 1000 / 1200 </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Make Order"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
